@@ -1,0 +1,68 @@
+/*
+    Student Name: Helix LeRoy
+    Date: 12/21/2023
+    File Name: styles.css
+*/
+
+.hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/Sophie_Banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.welcome {
+  position: absolute;
+  top: 40%;
+}
+
+.display-1 {
+  font-size: 4em;
+}
+
+.bg-ultra-violet {
+  background-color: #4A4E69;
+}
+
+.hamburger {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.copyright {
+  float: left;
+}
+
+.socials img {
+  width: 5%;
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) { 
+    
+    .welcome {
+        top: 20%;
+        left: 5%;
+        padding: 2em;
+    }
+
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) { 
+    
+    .hero {
+        background-position: left;
+    }
+    
+    .display-1 {
+        font-size: 8em;
+    }
+
+    /*mobile and tab-desk tables*/
+    .tab-desk-table {
+      display:block;
+    }
+    .mobile-table {
+      display: none
+    }
+}
